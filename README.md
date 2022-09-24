@@ -6,3 +6,7 @@ With Python and all necessary libraries installed, run the "web.py" file to depl
 # Future Plans
 I hope to get this web app properly hosted online in the future. Also, I intend to figure out how to get the data from the tweet no matter the formatting of the tweet, as the script only works when the tweets are formatted in a specific way.
 # Example Screenshots
+## Web app in action:
+![alt text](screenshot1.png)
+## Tweet being used in this example:
+![alt text](screenshot2.png)
