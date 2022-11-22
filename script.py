@@ -37,7 +37,7 @@ firstRow = df.iloc[0].tolist()
 firstRowInfo = firstRow[2]
 
 # cuts out other fitness centre capacities from the string, leaves only weight room
-onlyWeightRoomInfo = firstRowInfo[0:8]      # originally 6, but reformatting of tweets forced a change - keep an eye on this ****************************
+onlyWeightRoomInfo = firstRowInfo[0:8]      # originally 6, but reformatting of tweets forced a change (must be edited if tweet format changes)
 
 # cuts out extras in string, leaving only numerical value
 occupancy1 = onlyWeightRoomInfo.replace("WR", "")
